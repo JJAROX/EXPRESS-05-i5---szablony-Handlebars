@@ -1,0 +1,41 @@
+<h1
+  style="text-decoration:underline; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+  {{subject}}</h1>
+
+<form action="/handleForm" method="get">
+  <input style="border:1px solid blue;margin-left:17px; height:25px; width:500px;" type="text" name="fraza">
+  <button style="border:1px solid blue; padding: 6px 30px; cursor:pointer;" type="submit">Submit</button>
+</form>
+<p
+  style="text-decoration:underline; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color:gray;margin-left:15px; font-size:20px; ">
+  wyjściowy tekst:</p>
+<div
+  style="height:80px;width:100%; background-color:rgb(230, 230, 230) ; border:1px solid rgb(230, 230, 230) ; position:relative; border-radius:10px; margin-top:50px; top:-7px; margin-left  : 15px; ">
+
+  <h1
+    style="color: blue; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; position:absolute; margin-left:15px; ">
+    {{ title}}
+  </h1>
+</div>
+<p
+  style="text-decoration:underline; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color:gray;margin-left:15px;font-size:20px; ">
+  10 znaków:</p>
+<div
+  style="height:80px;width:100%; background-color:rgb(230, 230, 230) ; border:1px solid rgb(230, 230, 230) ; position:relative; border-radius:10px; margin-top:50px; top:-7px; margin-left  : 15px; ">
+
+  <h1
+    style="color: blue; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; position:absolute; margin-left:15px; ">
+    {{shortTitle title}}
+  </h1>
+</div>
+<p
+  style="text-decoration:underline; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color:gray;margin-left:15px;font-size:20px; ">
+  duże litery:</p>
+<div
+  style="height:80px;width:100%; background-color:rgb(230, 230, 230) ; border:1px solid rgb(230, 230, 230) ; position:relative; border-radius:10px; margin-top:50px; top:-7px; margin-left  : 15px; ">
+
+  <h1
+    style="color: blue; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; position:absolute; margin-left:15px; ">
+    {{capitalLetters title}}
+  </h1>
+</div>

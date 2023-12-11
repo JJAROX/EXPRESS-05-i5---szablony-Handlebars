@@ -1,0 +1,14 @@
+<h1
+  style="text-decoration:underline; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+  {{subject}}</h1>
+<form action="/form" method="get">
+  {{#each fields}}
+  <input type="radio" name="name" value="{{name}}">
+  <label for="{{name}}" style="dispaly:block;color: blue; text-align:center; padding:10px;">{{name}}</label>
+  {{/each}}
+
+  <button type="submit"
+    style="display:block;text-align: center; width: 250px; margin-top:25px; margin-left:10px; height: 50px; font-size:25px; color:blue; border: 3px solid blue;">
+    Wyślij
+  </button>
+</form>
